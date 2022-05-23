@@ -1,0 +1,98 @@
+.container {
+	min-width: 500px;
+	min-height: 500px;
+	max-width: 500px;
+	max-height: 500px;
+	background-color: white;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.calculator {
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.results {
+	width: 300px;
+	height: 100px;
+	margin-top: 50px;
+	background-color: slategray;
+	display: flex;
+	justify-content: center;
+
+}
+
+.result {
+	width: 300px;
+	height: 50px;
+	margin-top: 23px;
+	display: flex;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 20px;
+ }
+
+.numbers_signs {
+	width: 300px;
+	height: 250px;
+	background-color: yellow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.sings_1 {
+	display: flex;
+}
+
+.sings_1 > div, .sings_1 > div > button {
+	width: 75px;
+	height: 50px;
+}
+
+.numbers_signs_2 {
+	display: flex;
+}
+
+.numbers {
+	width: 225px;
+	height: 150px;
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.numbers {
+	width: 225px;
+	height: 150px;
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.numbers > div, .numbers > div > button {
+	width: 75px;
+	height: 50px;
+}
+
+
+.signs_2 {
+	width: 75px;
+	background-color: lightgray;
+}
+
+.signs_2 > div, .signs_2 > div > button {
+	width: 75px;
+	height: 50px;
+}
