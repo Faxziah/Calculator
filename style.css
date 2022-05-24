@@ -78,10 +78,10 @@
 
 .signs_2 {
 	width: 75px;
-	background-color: green;
 }
 
 .signs_2 > div, .signs_2 > div > button {
 	width: 75px;
 	height: 50px;
+	background-color: green;
 }
