@@ -3,7 +3,6 @@
 	min-height: 500px;
 	max-width: 500px;
 	max-height: 500px;
-	background-color: white;
 	margin: auto;
 	margin-top: 50px;
 	display: flex;
@@ -13,7 +12,6 @@
 .calculator {
 	width: 400px;
 	height: 400px;
-	background-color: white;
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
@@ -61,15 +59,6 @@
 
 .numbers_signs_2 {
 	display: flex;
-}
-
-.numbers {
-	width: 225px;
-	height: 150px;
-	background-color: lightblue;
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
 }
 
 .numbers {
