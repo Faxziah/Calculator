@@ -38,7 +38,7 @@ function add (one_number, i) {
 		}
 
 // + первый раз
-	else if (i == 16 && (typeof (sign) == "undefined" || String (sign) == "—" || String (sign) == "x" || String (sign) == "÷")) {
+	else if (i == 18 && (typeof (sign) == "undefined" || String (sign) == "—" || String (sign) == "x" || String (sign) == "÷")) {
 		without_number ()
 		first_sign (number, one_number);
 	}
@@ -49,7 +49,7 @@ function add (one_number, i) {
 		first_sign (number, one_number);
 	}
 // * первый раз
-	else if (i == 18 && (typeof (sign) == "undefined" || String (sign) == "+" || String (sign) == "—" || String (sign) == "÷")) {
+	else if (i == 16 && (typeof (sign) == "undefined" || String (sign) == "+" || String (sign) == "—" || String (sign) == "÷")) {
 		without_number ()
 		first_sign (number, one_number);
 	}
